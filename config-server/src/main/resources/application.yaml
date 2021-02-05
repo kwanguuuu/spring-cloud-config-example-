@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kwanguuuu/spring-cloud-config-repository
+          default-label: main
+encrypt:
+  key-store:
+    alias: pang
+    location: keystore.jks
+    secret: 123456
+    password: 123456

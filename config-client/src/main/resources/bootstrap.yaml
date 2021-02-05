@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      label: main
+      profile: dev
+  application:
+    name: service  #service 없으니 그냥 가져온당.ㅁa

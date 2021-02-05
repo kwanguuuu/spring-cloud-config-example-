@@ -1,0 +1,1 @@
+keytool -genkeypair -alias pang -keyalg RSA -keypass 123456 -keystore keystore.jks -storepass 123456
